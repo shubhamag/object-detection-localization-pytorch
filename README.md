@@ -1,4 +1,4 @@
-#Weakly Supervised Object Localization
+## Weakly Supervised Object Localization
 Contains the following implementations:
 
 1. Oquab, Maxime, et al. "*Is object localization for free?-weakly-supervised learning with convolutional neural networks.*" Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition. 2015.
