@@ -1,18 +1,5 @@
-# Assignment 2: Weakly Supervised Object Localization
-
-- [Visual Learning and Recognition (16-824) Spring 2019](https://sites.google.com/andrew.cmu.edu/16824-spring2019/)
-- Created By: [Senthil Purushwalkam](http://www.cs.cmu.edu/~spurushw)
-- TAs: [Senthil Purushwalkam](http://www.cs.cmu.edu/~spurushw/), [Kenny Marino](http://kennethmarino.weebly.com/), [Samantha Powers](https://www.ri.cmu.edu/ri-people/samantha-powers/), [Rohit Girdhar](http://rohitgirdhar.github.io), [Chen-Hsuan Lin](https://chenhsuanlin.bitbucket.io/), [Tao Chen](https://taochenshh.github.io/)
-- Please post questions on piazza and tag them with hw2. Do NOT email the TAs unless you have a question that can not be answered on piazza. 
-- Total points: 100
-
-In this assignment, we will learn to train object detectors in the *weakly supervised* setting. For those who don't know what that means - you're going to train object detectors without bounding box annotations!  
-
-We will use the [PyTorch](pytorch.org) framework this time to design our models, train and test them. We will also visualize our predictions using two toolboxes [Visdom](https://github.com/facebookresearch/visdom) and [Tensorboard](https://github.com/tensorflow/tensorboard) (yes, again!). 
-In some questions, I will mention which tool you need to use to visualize. In the other questions where I ask you to visualize things, you can use whichever tool you like.
-By the end of the assignment, you'll probably realise that Visdom and Tensorboard are good for visualizing different things.
-
-We will implement two approaches in this assignment:
+#Weakly Supervised Object Localization
+Contains the following implementations:
 
 1. Oquab, Maxime, et al. "*Is object localization for free?-weakly-supervised learning with convolutional neural networks.*" Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition. 2015.
 2. Bilen, Hakan, and Andrea Vedaldi. "*Weakly supervised deep detection networks*." Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition. 2016.
@@ -37,7 +24,6 @@ If you are using AWS instance setup using the provided instructions, you should 
 6. And many tiny dependencies that come pre-installed with anaconda or can be installed using ``conda install`` or ``pip install``
 
 
-## Task 0: Visualization and Understanding the data structures
 ### Visualization using Visdom
 In this assignment, we will use two packages for visualization. In Task 0, we will use [visdom](https://github.com/facebookresearch/visdom). 
 You can install visdom using 
